@@ -4,11 +4,11 @@ få API-nøkkel her: https://api.nasa.gov/
 
 Bash
 
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+python -m venv .venv  
+source .venv/bin/activate  
+pip install -r requirements.txt  
 
-# Lagre API-nøkkel i systemet ved hjelp av keyring
+Lagre API-nøkkel i systemet ved hjelp av keyring
 
 Bash
 
