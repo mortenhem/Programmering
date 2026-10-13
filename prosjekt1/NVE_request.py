@@ -1,9 +1,6 @@
 from functions import get_request, get_env_property
 
-
-
 def main():
-
 
 	apikey = get_env_property("NVE_API_KEY")
 	
@@ -15,9 +12,7 @@ def main():
 			"X-API-Key": apikey,
 			}
 	
-	response = get_request(url, headers)
-
-	
+	response = get_request(url, headers)	
 	data = response["data"]
 	
 	for k in range(10):
@@ -28,8 +23,6 @@ def main():
 		county = station["countyName"]
 		area = station["areaReservoirs"]	
 	
-		
-
 		# Skriver ut informasjon om det 10 første stasjonene.
 
 		print("---------------------------")
@@ -38,16 +31,7 @@ def main():
 		print(f"Fylke: {county}")
 		print(f"Areal: {area}")
 		
-
-
-
-
-
-
-
-
 if __name__=="__main__":
-	
 	main()
 
 
