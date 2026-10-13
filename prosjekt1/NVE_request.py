@@ -1,7 +1,6 @@
 from functions import get_request, get_env_property
 
 def main():
-
 	apikey = get_env_property("NVE_API_KEY")
 	
 	#url = "https://hydapi.nve.no/api/v1/Parameters"
@@ -32,7 +31,7 @@ def main():
 		print(f"Areal: {area}")
 		
 if __name__=="__main__":
-	main()
+		main()
 
 
 
