@@ -5,7 +5,6 @@ import io
 import matplotlib.pyplot as plt
 from PIL import Image
 
-
 def main():
 	"""Show Astronomy picture of the day from NASA."""
 	# Get API-key
