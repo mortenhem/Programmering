@@ -23,9 +23,9 @@ def get_secret(app, name):
 		return ""
 	return key
 
-def get_request(url, params):
+def get_request(url, headers):
 
-	response = requests.get(url, params)
+	response = requests.get(url, headers=headers)
 	
 	if response.status_code == 200:
 		data = response.text
