@@ -9,8 +9,7 @@ def main():
 	headers = {
 			"accept": "application/json",
 			"X-API-Key": apikey,
-			}
-	
+			}	
 	response = get_request(url, headers)	
 	data = response["data"]
 	
